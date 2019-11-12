@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, intial-scale=1, maximum-scale=1">
+        <title>SHOPPING LIST</title>
+        <link href="StyleSheet.css" rel="StyleSheet">
+        <script src="Script.js"></script>
+    </head>
+    <body>
+         <h1>SHOPPING LIST</h1>
+         <div id='division'>
+           <form id='frm'>
+            <label>Product</label>
+             <input id='product' type='text'>
+             <label>Quantity</label>
+             <input id='quantity' type='number'>
+            </form>
+             <button onclick='addItem()'>Add</button>
+         </div>
+         <div id='cart'>
+                <table id="myTable">
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Remove</th>
+                    </tr>
+                   </table> 
+         </div>
+    </body>
+
+</html>

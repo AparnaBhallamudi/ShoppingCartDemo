@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+body{
+    text-align: center;
+}
+#frm{
+    display: inline-block;
+    padding: 20px;
+    
+}
+#cart{
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid;
+}
+#tbl {
+    
+    table-layout: fixed;
+    width: 200px;
+  }
+  
+ th,
+  td {
+    
+    width: 100px;
+    overflow: hidden;
+  }
+
